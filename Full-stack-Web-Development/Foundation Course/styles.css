@@ -1,0 +1,42 @@
+/* universal operator */
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    font-weight:300;
+    text-align: center;
+}
+/* simple selector */
+div{
+    color:black;
+}
+/* class selector */
+.alert-text,.search-text{
+    color:red;
+}
+/* id selector */
+#text{
+    background-color: blueviolet;
+}
+
+/* chaining selector */
+.nested.n1{
+    background-color:aqua;
+}
+/* chaining id selector */
+.nested#n2{
+    background-color: aliceblue;
+}
+/* decendant combinator */
+.ancestor .child{
+    background-color: blanchedalmond;
+}
+
+/* color and background properties */
+p{
+    color: hsl(15, 82%, 56%);
+}
+
+img{
+    height: auto;
+    width: 500px;
+}
