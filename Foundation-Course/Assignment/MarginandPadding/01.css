@@ -1,0 +1,22 @@
+body{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.first{
+    background-color: pink;
+    border: 2px SOLID blue;
+    margin: 12px;
+    padding : 32px;
+}
+.second{
+    background-color: aqua;
+    border: 2px solid purple;
+    margin-bottom: 48px;
+}
+.third{
+    background-color:burlywood;
+    border: 2px solid red;
+    margin-left: auto;
+    padding: 32px;
+    width: 200px;
+}
